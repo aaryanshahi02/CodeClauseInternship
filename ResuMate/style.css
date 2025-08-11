@@ -1,0 +1,97 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.form-section, .resume-section {
+  flex: 1 1 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.resume {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.resume h2 {
+  margin-top: 0;
+}
+
+.resume ul {
+  padding-left: 20px;
+}
+
+.template1 {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e3f2fd;
+  color: #0d47a1;
+  border-left: 5px solid #2196f3;
+}
+
+.template2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #ffffff;
+  color: #333;
+  border: 2px dashed #444;
+}
+
+.template3 {
+  font-family: 'Roboto', sans-serif;
+  background: #ffebee;
+  color: #b71c1c;
+  border-top: 5px solid #d32f2f;
+}
+
+.template4 {
+  font-family: 'Georgia', serif;
+  background: #f3e5f5;
+  color: #4a148c;
+  border-right: 5px double #6a1b9a;
+}
+
+.template5 {
+  font-family: 'Courier New', monospace;
+  background: #fbe9e7;
+  color: #e64a19;
+  border: 3px solid #ff5722;
+}

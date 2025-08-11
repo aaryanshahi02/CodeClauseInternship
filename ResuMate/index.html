@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ResuMate - Resume Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ResuMate - Resume Builder</h1>
+
+  <div class="container">
+    <div class="form-section">
+      <h2>Enter Your Details</h2>
+      <input type="text" id="name" placeholder="Full Name" />
+      <input type="text" id="email" placeholder="Email" />
+      <input type="text" id="phone" placeholder="Phone Number" />
+      <textarea id="details" placeholder="About Yourself (2-3 lines)"></textarea>
+
+      <textarea id="education" placeholder="Educational Qualifications"></textarea>
+      <textarea id="skills" placeholder="Skills (comma-separated)"></textarea>
+      <textarea id="experience" placeholder="Work Experience"></textarea>
+      <textarea id="hobbies" placeholder="Hobbies (comma-separated)"></textarea>
+
+      <label for="template">Choose Template:</label>
+      <select id="template">
+        <option value="template1">Classic Blue</option>
+        <option value="template2">Modern Minimal</option>
+        <option value="template3">Bold Red</option>
+        <option value="template4">Elegant Serif</option>
+        <option value="template5">Creative Block</option>
+      </select>
+      <button onclick="generateResume()">Generate Resume</button>
+      <button onclick="printResume()">Export to PDF</button>
+    </div>
+
+    <div class="resume-section" id="resumePreview">
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
