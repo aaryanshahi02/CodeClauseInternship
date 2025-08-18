@@ -45,7 +45,7 @@ This repository contains two simple yet impactful web development projects built
 
    ```bash
    
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/aaryanshahi02/CodeClauseInternship.git
 
 3. Navigate to a project folder:
 
