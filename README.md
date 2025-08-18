@@ -53,7 +53,7 @@ This repository contains two simple yet impactful web development projects built
    
    cd "Aaryan's Portfolio"
    
-   cd ResuMate
+   cd "ResuMate"
 
 4. Open the index.html file in your browser.
 
